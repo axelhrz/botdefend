@@ -1,0 +1,60 @@
+.container1 {
+    padding: 10vw;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.sec2 {
+    background: red;
+    width: 50%;
+}
+
+.sec1 {
+    background: rgb(78, 13, 230);
+    width: 50%;
+}
+
+.flexbox {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background: white;
+}
+
+.part1 {
+    background: white;
+    border: 2px solid black;
+    border-radius: 6px 0px 0px 6px;
+    padding: 0px 20px;
+    width: 80%;
+}
+
+.part2 {
+    background: grey;
+    border: 2px solid black;
+    border-radius: 0px 6px 6px 0px;
+    padding: 0px 35px;
+    width: 20%;
+}
+
+.part3 {
+    background: grey;
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.part1 h5,
+.part3 h5 {
+    margin-top: 5px;
+}
+
+.part1 h3,
+.part3 h3 {
+    margin-top: -20px;
+}
+
+.part3 .content {
+    margin-left: 25%;
+}
