@@ -1,45 +1,81 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-page{
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+}
+
+
 .container1 {
-    padding: 10vw;
+    padding: 7vw 10vw 6vw 15vw;
     display: flex;
     justify-content: space-evenly
 }
 
+.logo{
+    display: flex;
+    margin-left: 15vw ;
+    color: rgb(66, 250, 180);
+}
+
+.logo i{
+    margin-top: 25px;
+    margin-right: 15px;
+    color: rgb(66, 250, 180);
+}
 .sec2 {
-    background: red;
     width: 50%;
 }
 
 .sec1 {
-    background: rgb(78, 13, 230);
     width: 50%;
 }
 
+.sec1 h2{
+    font-size: 35px;
+}
+
+.sec1 p{
+    font-size: medium; 
+}
+
 .flexbox {
+    padding-top: 80px;
     display: flex;
     width: 70%;
     margin: auto;
-    background: white;
 }
 
 .part1 {
     background: white;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 6px 0px 0px 6px;
     padding: 0px 20px;
     width: 80%;
+    color: black;
 }
 
 .part2 {
     background: grey;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 0px 6px 6px 0px;
     padding: 0px 35px;
     width: 20%;
 }
 
+.part2 h3{
+    color: white;
+}
+
 .part3 {
-    background: grey;
-    border: 2px solid;
+    border: 2px solid white;
+    border-top: none;
     width: 50%;
     margin: auto;
     border-radius: 0px 0px 6px 6px;
@@ -56,5 +92,56 @@
 }
 
 .part3 .content {
-    margin-left: 25%;
+    margin-top: -5px;
+    margin-left: 20%;
+    color: white;
+
+}
+
+
+.links{
+    display: flex;
+    margin-top: 50px;
+   
+}
+
+
+.links a {
+    text-decoration: none;
+    
+}
+
+.links a h3{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.links .vl{
+    margin: 5px 40px 0px 40px;
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 45px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding-left: 15px;
+    height: 35px;
+    width: 35vw;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.input button{
+    background-color: rgb(66, 250, 180);
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    cursor: pointer;
 }
