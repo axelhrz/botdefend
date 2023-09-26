@@ -5,9 +5,6 @@ body {
 
 .first-page{
     background: black;
-    top: 0;
-    left: 0;
-    position: absolute;
     color: white;
 }
 
@@ -144,4 +141,54 @@ input{
     padding-right: 35px;
     color: white;
     cursor: pointer;
+}
+
+
+.cards{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card{
+    width: calc(100% /3);
+}
+
+.card img{
+    height: 150px;
+    width: 200px;
+}
+.cards :nth-child(2){
+    margin-left: 15%;
+}
+.cards :nth-child(3){
+    margin-left: 15%;
+}
+
+.second-page{
+   text-align: center;
+}
+
+
+
+.sp-cards{
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sp-card{
+    width: 30%;  
+    margin-top: 8vh; 
+}
+
+.sp-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
