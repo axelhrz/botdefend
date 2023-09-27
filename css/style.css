@@ -277,3 +277,12 @@ input{
 .faq-page .qst-box div{
     width: 45%;
 }
+
+
+.footer{
+    justify-content: space-between;
+    padding: 2vh 10vh 2vh 10vh;
+    color: white;
+    display: flex;
+    background: black;
+}
