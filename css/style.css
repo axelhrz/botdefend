@@ -170,6 +170,7 @@ input{
 
 .second-page{
    text-align: center;
+   padding-bottom: 7vh;
 }
 
 
@@ -191,4 +192,88 @@ input{
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+
+.third-page{
+    background: rgba(71, 71, 71, 0.1);
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.third-page .title{
+    width: 70%;
+    margin: 0px auto -40px auto;
+    font-size: x-large;
+}
+
+.third-page-content{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.third-page-content img{
+    margin-top: 15%;
+    width: 450px;
+}
+
+.third-page-content h3{
+    margin-top: 35px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.third-page-content p{
+    margin-top: -15px;
+    margin-left: 7%;
+    font-size: small;
+    font-weight: 300;
+}
+
+.fourth-page{
+    width: 100%;
+    background: black;
+    color: white;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+.fourth-page .title{
+    text-align: center;
+}
+
+.fourth-page .first-sec{
+    width: 70%;
+    margin: auto;
+}
+.fourth-page .first-sec img{
+    width: 100%;
+}
+.fourth-page .first-sec h5{
+    margin-left: 18%;
+    margin-right: 18%;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.faq-page{
+    width: 70vw;
+    margin: auto;
+}
+
+.faq-page .title{
+    text-align: center;
+}
+
+.faq-page .qst-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.faq-page .qst-box div{
+    width: 45%;
 }

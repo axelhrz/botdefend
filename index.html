@@ -134,5 +134,108 @@
         </div>
       </div>
     </section>
+    <section class="third-page">
+      <div class="title">
+        <h1>How it works?</h1>
+      </div>
+      <div class="third-page-content">
+        <div>
+          <div>
+            <h3>1.BotDefend Javascript tag collects browser signals.</h3>
+            <p>
+              Our tag is cached globally by AWS CloudFront and runs in 5ms or
+              less.Dosen't slow down the page & users will never notice
+            </p>
+          </div>
+          <div>
+            <h3>
+              2.AWS WAF process your traffic and logs key browser signals.
+            </h3>
+            <p>
+              If you don't already use AWS CloudFront, you will need to set up &
+              re-route your traffic. sensitive fields can be omitted from logs.
+            </p>
+          </div>
+          <div>
+            <h3>3.BotDefend reads logs & detect bad bots.</h3>
+            <p>
+              Our advanced algorithms can detect minute amounts of bad bots out
+              of millions of human requests. On-premise solution not available.
+            </p>
+          </div>
+          <div>
+            <h3>4.Bad Bots are blocked with API calls to your WAF.</h3>
+            <p>
+              BotDefend dashboard allows you to configure custom rules based on
+              request fields. One-click support for good bots and cummon third
+              party integrations.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="img/how-it-works.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="fourth-page">
+      <div class="title">
+        <h1>Comparison with existing solutions</h1>
+      </div>
+      <div class="first-sec">
+        <img src="img/comparison.png" alt="" />
+        <h5>
+          Other solutions (CloudeFlare, Akamai, Imperva, Reblaze, etc) proxy
+          every request in realtime, which is expensive & adds latency. To do
+          this, the require heavy infrastructure or DNS changes.
+        </h5>
+        <h5>
+          Botdefend just processes the logs, which significantly lowers the
+          price and provides a similar level of denfense. BotDefend requires no
+          DNS changes or proxying inrastructure.
+        </h5>
+        <img src="img/comparison2.png" alt="" />
+      </div>
+    </section>
+    <section class="faq-page">
+      <div class="title">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <div class="qst-box">
+        <div>
+          <h3>What about clouds other than AWS?</h3>
+          <p>
+            We are gathering interest in other clouds(eg. Azure, GCPI).Contact
+            us to express your interest. If you are using physical on-promise
+            servers, we recomand you route all your traffic through AWS
+            CloudFront.
+          </p>
+        </div>
+        <div>
+          <h3>Can I whitelist a custom 3rd party?</h3>
+          <p>
+            Of course! You can whitelist requests by URL, domain, IP adress, or
+            any HTTP Header Field in the Deshboard.
+          </p>
+        </div>
+        <div>
+          <h3>
+            But if you process request logs, you will miss a few requests right?
+          </h3>
+          <p>
+            For a few minutes, yes. However, we block by IPadress and it is very
+            expensive & difficult for scrappers to obtain new IP adresses every
+            few minutes. Once blocked a few times, most will give up.
+          </p>
+        </div>
+        <div>
+          <h3>What about robots.txt?</h3>
+          <p>
+            Robots.txt is equivalent to politely asking scrapers not to
+            scrape.Many will just ignore it and scrape anyway. BotDefend
+            enforces these rules and blocks misbehaving bots.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
