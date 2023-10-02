@@ -259,6 +259,27 @@ input{
     font-size: medium;
 }
 
+
+/* comparison-table */
+.table{
+    text-align: center;
+    margin: auto;
+    width: 60vw;
+    display: flex;
+}
+
+.table li{
+    
+    list-style-type: none;
+}
+
+
+
+.first-list{
+    text-align: left;
+    
+}
+
 .faq-page{
     width: 70vw;
     margin: auto;
